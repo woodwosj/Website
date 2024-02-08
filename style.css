@@ -17,6 +17,12 @@ header, section, footer {
     padding: 20px;
 }
 
+#logo {
+    max-width: 200px;
+    margin: 0 auto 20px;
+    display: block;
+}
+
 .service, #contact {
     margin: 20px;
 }
@@ -32,6 +38,12 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+#chat-cta {
+    text-align: center;
+    margin: 20px;
+    color: var(--text-color);
 }
 
 @media (min-width: 768px) {
