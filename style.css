@@ -1,0 +1,33 @@
+:root {
+    --background-color: #121212;
+    --text-color: #ffffff;
+    --accent-color: #4A90E2;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, section, footer {
+    text-align: center;
+    padding: 20px;
+}
+
+.service {
+    margin: 20px;
+}
+
+h1, h2 {
+    color: var(--accent-color);
+}
+
+@media (min-width: 768px) {
+    .service {
+        display: inline-block;
+        width: 30%;
+    }
+}
