@@ -17,7 +17,7 @@ header, section, footer {
     padding: 20px;
 }
 
-.service, #contact, #chat {
+.service, #contact {
     margin: 20px;
 }
 
@@ -32,34 +32,6 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-#chatWindow {
-    height: 200px;
-    overflow-y: auto;
-    background-color: #2a2a2a;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-#userInput {
-    width: calc(100% - 90px);
-    padding: 10px;
-    margin-right: 10px;
-    box-sizing: border-box;
-}
-
-#sendButton {
-    width: 80px;
-    padding: 10px;
-    background-color: var(--accent-color);
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-#sendButton:hover {
-    background-color: darken(var(--accent-color), 10%);
 }
 
 @media (min-width: 768px) {
