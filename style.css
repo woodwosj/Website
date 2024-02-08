@@ -17,12 +17,21 @@ header, section, footer {
     padding: 20px;
 }
 
-.service {
+.service, #contact {
     margin: 20px;
 }
 
 h1, h2 {
     color: var(--accent-color);
+}
+
+a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 @media (min-width: 768px) {
